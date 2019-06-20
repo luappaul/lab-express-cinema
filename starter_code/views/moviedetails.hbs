@@ -1,0 +1,22 @@
+<div class="containerdetails">
+  <div class="image">
+    <img src="{{ resu.image}}" alt="imagefilm">
+  </div>
+
+  <div class="content">
+    <a href="/movies">go back</a>
+    <h1>{{resu.title}}</h1>
+    <h2>Director : {{ resu.director }}</h2>
+    <h3>Stars</h3>
+
+    {{#each resu.stars}}
+    <li>{{.}}</li>
+    {{/each}}
+
+    <p>{{resu.description}}</p>
+
+    {{#each resu.showtimes}}
+    {{.}} |
+    {{/each}}
+  </div>
+</div>

@@ -37,7 +37,8 @@ a {
   display: inline-block;
   font-size: 50px;
   margin: 4px 2px;
-  -webkit-transition-duration: 0.4s; /* Safari */
+  -webkit-transition-duration: 0.4s;
+  /* Safari */
   transition-duration: 0.4s;
   cursor: pointer;
   border-radius: 20px;
@@ -85,3 +86,5 @@ a {
 .image img {
   width: 200px;
 }
+
+/*# sourceMappingURL=style.css.map */
